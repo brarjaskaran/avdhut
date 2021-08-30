@@ -600,7 +600,7 @@ class App extends React.Component {
         </div>
         {/* address google map */}
 
-        <Address />
+        {/* <Address /> */}
 
         {/* Footer  Section Start */}
         <div className="">
