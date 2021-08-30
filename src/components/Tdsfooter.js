@@ -15,7 +15,7 @@ class Tdsfooter extends React.Component {
         <Container>
           <Row className="align-items-center">
             <Col md="6">
-              <p>Copyright @ 2021 Tech Vision. All rights reserved</p>
+              <p>Copyright @ 2021 Avdhut. All rights reserved</p>
             </Col>
             <Col md="6">
               <p>
@@ -24,7 +24,6 @@ class Tdsfooter extends React.Component {
                   {" "}
                   Jas Brar
                 </a>
-
               </p>
             </Col>
             {/* <Col>

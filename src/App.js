@@ -33,6 +33,8 @@ import Tdsfooter from "./components/Tdsfooter";
 import "./App.css";
 import "./responsive.css";
 import SubmitForm from "./components/SubmitForm";
+import Partners from "./components/Partners";
+import Address from "./components/Address";
 
 class App extends React.Component {
   render() {
@@ -69,13 +71,14 @@ class App extends React.Component {
               <h2>
                 Welcome to <b>Avdhut Pty Ltd</b>
               </h2>
-              <p>
-                End-to-end solution provider in Construction & ICT sectors.
-              </p>{" "}
-              <Media body>
+              <h3 style={{ fontSize: "1.2rem" }}>
+                End-to-end solution provider in Telecommunications, Construction
+                & ICT sectors.
+              </h3>{" "}
+              {/* <Media body>
                 <Media heading>Dial</Media>
                 <a href="tel:+61 468 441 977"> +61 468 441 977</a> <br />
-              </Media>{" "}
+              </Media>{" "} */}
             </div>
             {/* <Row>
               <Col xs="12" sm="12" md="4">
@@ -111,6 +114,17 @@ class App extends React.Component {
             </Row> */}
           </Container>
         </div>
+
+        {/* our partners */}
+
+        <div className="section ourservice grapping">
+          <div className="title-box">
+            <h2>
+              Our <b>Partners</b>
+            </h2>
+          </div>
+          <Partners />
+        </div>
         {/* About us Section Start */}
         <div className="section about-box grapping" id="about">
           <Container>
@@ -130,6 +144,99 @@ class App extends React.Component {
             </Row>
           </Container>
         </div>
+
+        <div className="why-choose">
+          <Row noGutters>
+            <Col xs="6" sm="6" md="4">
+              <div className="why-box text-center">
+                <Icofont icon="icofont-cubes" style={{ color: "#ffb703" }} />
+                <h5>Proposal Preperation</h5>
+              </div>
+            </Col>
+            <Col xs="6" sm="6" md="4">
+              <div className="why-box text-center">
+                <Icofont
+                  icon="icofont-dollar-true"
+                  style={{ color: "#ffb703" }}
+                />
+                <h5>Estimation</h5>
+              </div>
+            </Col>
+            <Col xs="6" sm="6" md="4">
+              <div className="why-box text-center">
+                <Icofont icon="icofont-support" style={{ color: "#ffb703" }} />
+                <h5>Contract Administration</h5>
+              </div>
+            </Col>
+            <Col xs="6" sm="6" md="4">
+              <div className="why-box text-center">
+                <Icofont icon="icofont-team" style={{ color: "#ffb703" }} />
+                <h5>Project Scheduling</h5>
+              </div>
+            </Col>
+            <Col xs="6" sm="6" md="4">
+              <div className="why-box text-center">
+                <Icofont
+                  icon="icofont-calculations"
+                  style={{ color: "#ffb703" }}
+                />
+                <h5>Tender Evalution</h5>
+              </div>
+            </Col>
+            <Col xs="6" sm="6" md="4">
+              <div className="why-box text-center">
+                <Icofont
+                  icon="icofont-architecture-alt"
+                  style={{ color: "#ffb703" }}
+                />
+                <h5>Quantity Surveying</h5>
+              </div>
+            </Col>
+            <Col xs="6" sm="6" md="4">
+              <div className="why-box text-center">
+                <Icofont
+                  icon="icofont-money-bag"
+                  style={{ color: "#ffb703" }}
+                />
+                <h5>Project Costing</h5>
+              </div>
+            </Col>
+            <Col xs="6" sm="6" md="4">
+              <div className="why-box text-center">
+                <Icofont
+                  icon="icofont-automation"
+                  style={{ color: "#ffb703" }}
+                />
+                <h5>SH&E Compliance</h5>
+              </div>
+            </Col>
+            <Col xs="6" sm="6" md="4">
+              <div className="why-box text-center">
+                <Icofont icon="icofont-database" style={{ color: "#ffb703" }} />
+                <h5>Document Control Management</h5>
+              </div>
+            </Col>
+            <Col xs="6" sm="6" md="4">
+              <div className="why-box text-center">
+                <Icofont icon="icofont-ui-play" style={{ color: "#ffb703" }} />
+                <h5>Project Presentations</h5>
+              </div>
+            </Col>
+            <Col xs="6" sm="6" md="4">
+              <div className="why-box text-center">
+                <Icofont icon="icofont-bars" style={{ color: "#ffb703" }} />
+                <h5>Financial Forecasting</h5>
+              </div>
+            </Col>
+            <Col xs="6" sm="6" md="4">
+              <div className="why-box text-center">
+                <Icofont icon="icofont-crown" style={{ color: "#ffb703" }} />
+                <h5>Leadership and Communication</h5>
+              </div>
+            </Col>
+          </Row>
+        </div>
+
         {/* Our Services Section Start */}
         <div className="section ourservice grapping" id="services">
           <Container>
@@ -146,11 +253,11 @@ class App extends React.Component {
                     style={{ color: "var(--orange)" }}
                   />
                   <h4>Network Design</h4>
-                  <p>Network Planning & Design
-Network Construction
-Network Integration & Roll-out
-Performance & Optimization
-Operations & Maintenance</p>
+                  <p>
+                    Network Planning & Design Network Construction Network
+                    Integration & Roll-out Performance & Optimization Operations
+                    & Maintenance
+                  </p>
                 </div>
               </Col>
               <Col xs="12" sm="6" md="6" lg="3">
@@ -159,67 +266,55 @@ Operations & Maintenance</p>
                     icon="icofont-cement-mix"
                     style={{ color: "var(--orange)" }}
                   />
-                 
+
                   <h4>Civil Construction</h4>
                   <p>
-                    Telecommunication Infrastructure
-Asbestos Removal
-Wireless & Rooftop Towers
-Pit & Pipe (Trenching & Drilling)
-Manholes
+                    Telecommunication Infrastructure Asbestos Removal Wireless &
+                    Rooftop Towers Pit & Pipe (Trenching & Drilling) Manholes
                   </p>
                 </div>
               </Col>
               <Col xs="12" sm="6" md="6" lg="3">
                 <div className="white-bg coman-box ourservice-box">
-                
                   <Icofont
                     icon="icofont-at"
                     style={{ color: "var(--orange)" }}
                   />
-                 
+
                   <h4>ICT Services</h4>
                   <p>
-                    Enterprise Software Solutions
-On-shore & Off-shore ICT Solutions
-Enterprise Cloud Computing Solutions
-Enterprise IT Security Solutions
-Blockchain Enablement Solutions
+                    Enterprise Software Solutions On-shore & Off-shore ICT
+                    Solutions Enterprise Cloud Computing Solutions Enterprise IT
+                    Security Solutions Blockchain Enablement Solutions
                   </p>
                 </div>
               </Col>
-             
             </Row>
           </Container>
         </div>
+
         {/* Team Section Start */}
-        {/* <div className="section expert-team grapping" id="team">
+        <div className="section expert-team grapping" id="team">
           <Container>
             <div className="title-box">
               <h2>
                 Expert <b>Team</b>
               </h2>
-              <p>
-                When an unknown printer took a galley of type and scrambled it
-                to make a type specimen book
-              </p>
             </div>
             <Row>
               <Col xs="12" sm="6" md="6" lg="3">
                 <div className="text-center coman-box team-box">
-                  <div className="team-img">
+                  {/* <div className="team-img">
                     <img
                       src={require("./images/team-img1.jpg")}
                       alt=""
                       className="img-fluid rounded-circle"
                     />
-                  </div>
-                  <h4 className="text-white">Lucy Smith</h4>
-                  <p className="text-white">
-                    When an unknown printer took a galley of type and scrambled
-                    it to make a type specimen book
-                  </p>
-                  <ListGroup className="social-icon-team">
+                  </div> */}
+                  <h4 className="text-white">Mitalkumar Patel</h4>
+                  <p className="text-white">Business Development Manager</p>
+                  <p className="text-white">+61 468441977</p>
+                  {/* <ListGroup className="social-icon-team">
                     <ListGroupItem tag="a" href="#">
                       {" "}
                       <Icofont icon="icofont-facebook" />
@@ -236,116 +331,29 @@ Blockchain Enablement Solutions
                       {" "}
                       <Icofont icon="icofont-linkedin" />
                     </ListGroupItem>
-                  </ListGroup>
+                  </ListGroup> */}
                 </div>
               </Col>
+
               <Col xs="12" sm="6" md="6" lg="3">
                 <div className="text-center coman-box team-box">
-                  <div className="team-img">
-                    <img
-                      src={require("./images/team-img2.jpg")}
-                      alt=""
-                      className="img-fluid rounded-circle"
-                    />
-                  </div>
-                  <h4 className="text-white">Alex Maxwel</h4>
-                  <p className="text-white">
-                    When an unknown printer took a galley of type and scrambled
-                    it to make a type specimen book
-                  </p>
-                  <ListGroup className="social-icon-team">
-                    <ListGroupItem tag="a" href="#">
-                      {" "}
-                      <Icofont icon="icofont-facebook" />
-                    </ListGroupItem>
-                    <ListGroupItem tag="a" href="#">
-                      {" "}
-                      <Icofont icon="icofont-twitter" />
-                    </ListGroupItem>
-                    <ListGroupItem tag="a" href="#">
-                      {" "}
-                      <Icofont icon="icofont-instagram" />
-                    </ListGroupItem>
-                    <ListGroupItem tag="a" href="#">
-                      {" "}
-                      <Icofont icon="icofont-linkedin" />
-                    </ListGroupItem>
-                  </ListGroup>
-                </div>
-              </Col>
-              <Col xs="12" sm="6" md="6" lg="3">
-                <div className="text-center coman-box team-box">
-                  <div className="team-img">
+                  {/* <div className="team-img">
                     <img
                       src={require("./images/team-img3.jpg")}
                       alt=""
                       className="img-fluid rounded-circle"
                     />
-                  </div>
-                  <h4 className="text-white">Steven Doe</h4>
-                  <p className="text-white">
-                    When an unknown printer took a galley of type and scrambled
-                    it to make a type specimen book
-                  </p>
-                  <ListGroup className="social-icon-team">
-                    <ListGroupItem tag="a" href="#">
-                      {" "}
-                      <Icofont icon="icofont-facebook" />
-                    </ListGroupItem>
-                    <ListGroupItem tag="a" href="#">
-                      {" "}
-                      <Icofont icon="icofont-twitter" />
-                    </ListGroupItem>
-                    <ListGroupItem tag="a" href="#">
-                      {" "}
-                      <Icofont icon="icofont-instagram" />
-                    </ListGroupItem>
-                    <ListGroupItem tag="a" href="#">
-                      {" "}
-                      <Icofont icon="icofont-linkedin" />
-                    </ListGroupItem>
-                  </ListGroup>
-                </div>
-              </Col>
-              <Col xs="12" sm="6" md="6" lg="3">
-                <div className="text-center coman-box team-box">
-                  <div className="team-img">
-                    <img
-                      src={require("./images/team-img4.jpg")}
-                      alt=""
-                      className="img-fluid rounded-circle"
-                    />
-                  </div>
-                  <h4 className="text-white"> Maxwel Doe </h4>
-                  <p className="text-white">
-                    When an unknown printer took a galley of type and scrambled
-                    it to make a type specimen book
-                  </p>
-                  <ListGroup className="social-icon-team">
-                    <ListGroupItem tag="a" href="#">
-                      {" "}
-                      <Icofont icon="icofont-facebook" />
-                    </ListGroupItem>
-                    <ListGroupItem tag="a" href="#">
-                      {" "}
-                      <Icofont icon="icofont-twitter" />
-                    </ListGroupItem>
-                    <ListGroupItem tag="a" href="#">
-                      {" "}
-                      <Icofont icon="icofont-instagram" />
-                    </ListGroupItem>
-                    <ListGroupItem tag="a" href="#">
-                      {" "}
-                      <Icofont icon="icofont-linkedin" />
-                    </ListGroupItem>
-                  </ListGroup>
+                  </div> */}
+                  <h4 className="text-white">Urmil Patel</h4>
+                  <p className="text-white">Operations Manager</p>
+                  <p className="text-white">+61 430 486 306</p>
                 </div>
               </Col>
             </Row>
           </Container>
-        </div> */}
+        </div>
         {/* Portfolio Section Start*/}
-        <div className="section ourportfolio grapping" id="portfolio">
+        {/* <div className="section ourportfolio grapping" id="portfolio">
           <Container>
             <div className="title-box">
               <h2>
@@ -358,7 +366,7 @@ Blockchain Enablement Solutions
             </div>
             <Tdslightbox></Tdslightbox>
           </Container>
-        </div>
+        </div> */}
         {/* Marketing Section Start*/}
         {/* <div className="marketing-section grapping">
           <Container>
@@ -408,7 +416,7 @@ Blockchain Enablement Solutions
           </Container>
         </div> */}
         {/* Expert Feadback Section Start */}
-        <div className="expertfeesback grapping">
+        {/* <div className="expertfeesback grapping">
           <Container>
             <div className="title-box">
               <h2>
@@ -417,7 +425,7 @@ Blockchain Enablement Solutions
             </div>
             <Tdsfeedbackslider></Tdsfeedbackslider>
           </Container>
-        </div>
+        </div> */}
         {/* Our  Pricing Section Start*/}
         {/* <div className="section ourlatest-pricing grapping" id="price">
           <Container>
@@ -500,17 +508,17 @@ Blockchain Enablement Solutions
           </Container>
         </div> */}
         {/* Work With Us  Section Start*/}
-        {/* <div className="workwithus grapping">
+        <div className="workwithus grapping">
           <Container>
             <div className="title-box mb-0">
               <h2 className="text-white">
                 <b>Want to work with us?</b>
               </h2>
               <p className="text-white mb-4">Lets talk about project</p>
-              <Button>Get Started</Button>
+              {/* <Button>Get Started</Button> */}
             </div>
           </Container>
-        </div> */}
+        </div>
         {/* Contact Us Section Start  */}
         <div className="section contactus grapping" id="contact">
           <Container>
@@ -538,9 +546,9 @@ Blockchain Enablement Solutions
                   </Media>
                   <Media body>
                     <Media heading>Email</Media>
-                    <a href="mailto:patelmeet4792@gmail.com">
+                    <a href="mailto:info@avdhutech.com">
                       {" "}
-                      patelmeet4792@gmail.com
+                      info@avdhutech.com
                     </a>{" "}
                     <br />
                   </Media>
@@ -590,6 +598,10 @@ Blockchain Enablement Solutions
             </Row>
           </Container>
         </div>
+        {/* address google map */}
+
+        <Address />
+
         {/* Footer  Section Start */}
         <div className="">
           <Tdsfooter></Tdsfooter>

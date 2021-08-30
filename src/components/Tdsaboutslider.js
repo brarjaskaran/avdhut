@@ -76,12 +76,16 @@ class Tdsaboutslider extends React.Component {
             </h2>
             <h4 className="mt-0 mb-2 sub-title">
               We Are <span>Civil Building and technology</span> Company Based in
-              <span> Adelaide</span>
+              <span> Adelaide & Perth</span>
             </h4>
           </div>
-         
+
           <h5>
-            Avdhut is an end to end solution provider catering to wide variety of clients within construction and ICT sectors. The team at Civitech Australia solves our client’s toughest challenges by providing exceptional services in construction, consulting, digital technology and business operations. 
+            Avdhut is an end to end solution provider catering to wide variety
+            of clients within construction and ICT sectors. The team at Civitech
+            Australia solves our client’s toughest challenges by providing
+            exceptional services in construction, consulting, digital technology
+            and business operations.
           </h5>
         </div>
 

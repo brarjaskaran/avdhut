@@ -73,8 +73,7 @@ class Tdsaboutslider extends React.Component {
             <p>
               Security of my home was great concern to me. I had too many
               troubles with my old contractor, after my friend suggestion, I get
-              to know about tech vision and I am extremely happy with their
-              services.
+              to know about Avdhut and I am extremely happy with their services.
             </p>
           </div>
         </div>
@@ -88,13 +87,12 @@ class Tdsaboutslider extends React.Component {
                   className="img-fluid"
                 />
               </div>
-              <h5 className="mb-2">Jaskaran Brar</h5>
+              <h5 className="mb-2">Chris Cowan</h5>
               <p>Web Developer</p>
             </div>
             <p>
-              Tech vision provide cost effective and out of the box solution to
-              any security related problems. Big thumbs up to the hardworking
-              team.
+              Avdhut provide cost effective and out of the box solution to any
+              security related problems. Big thumbs up to the hardworking team.
             </p>
           </div>
         </div>
@@ -112,9 +110,9 @@ class Tdsaboutslider extends React.Component {
               <p>Chef</p>
             </div>
             <p>
-              I am a regular customer to Tech vision from last two years. I am
-              really happy with their services. Karan is a nice person, he know
-              his job and do it well.
+              I am a regular customer to Avdhut from last two years. I am really
+              happy with their services. Meet is a nice person, he know his job
+              and do it well.
             </p>
           </div>
         </div>

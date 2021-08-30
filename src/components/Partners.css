@@ -1,0 +1,21 @@
+.partners {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.partners > img {
+  box-sizing: content-box;
+  height: 6rem;
+}
+
+@media (max-width: 1100px) {
+  .partners {
+    flex-direction: column;
+  }
+
+  partners > img {
+    /* box-sizing: content-box; */
+    height: 3rem;
+  }
+}

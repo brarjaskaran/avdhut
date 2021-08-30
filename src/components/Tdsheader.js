@@ -13,7 +13,7 @@ import logo from "../logowhite.svg";
 import logob from "../logoblack.svg";
 import "./Tdsheader.css";
 
-import avdhut from '../images/avdhut.png'
+import avdhut from "../images/avdhut.png";
 
 const Tdsheader = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -77,7 +77,7 @@ const Tdsheader = () => {
           >
             <h3 className="logoblack">AVDHUT</h3>
             <h3 style={{ color: "#fff" }} className="logowhite">
-              <img src={avdhut}/>
+              <img src={avdhut} />
             </h3>
             {/* <img src={logo} className="logowhite" alt="logo" />
               <img src={logob} className="logoblack" alt="logo" /> */}
@@ -119,14 +119,14 @@ const Tdsheader = () => {
                   Team
                 </NavLink>
               </NavItem> */}
-              <NavItem>
+              {/* <NavItem>
                 <NavLink
                   onClick={() => scrollToTop("portfolio")}
                   className={activeMenu === "portfolio" ? "active" : ""}
                 >
                   Portfolio
                 </NavLink>
-              </NavItem>
+              </NavItem> */}
 
               {/* <NavItem>
                 <NavLink

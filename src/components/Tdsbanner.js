@@ -42,7 +42,8 @@ class Tdsbanner extends React.Component {
               <Container>
                 <div className="banner-text text-center">
                   <h1>
-                    <span>Civil. Building. Technology.</span> company based in Adelaide
+                    <span>Civil. Building. Technology.</span> company based in
+                    Adelaide & Perth
                   </h1>
                   {/* <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -63,7 +64,7 @@ class Tdsbanner extends React.Component {
               <Container>
                 <div className="banner-text text-center">
                   <h1>
-                    Feeling <span> Unsafe</span> at Home Contact Us
+                    <span>Telecommunication </span> Services
                   </h1>
                   {/* <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
