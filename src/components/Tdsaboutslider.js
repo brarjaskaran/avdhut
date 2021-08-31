@@ -82,10 +82,10 @@ class Tdsaboutslider extends React.Component {
 
           <h5>
             Avdhut is an end to end solution provider catering to wide variety
-            of clients within construction and ICT sectors. The team at Civitech
-            Australia solves our client’s toughest challenges by providing
-            exceptional services in construction, consulting, digital technology
-            and business operations.
+            of clients within construction and ICT sectors. The team at Avdhut
+            solves our client’s toughest challenges by providing exceptional
+            services in construction, consulting, digital technology and
+            business operations.
           </h5>
         </div>
 

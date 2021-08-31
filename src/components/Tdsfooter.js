@@ -17,7 +17,7 @@ class Tdsfooter extends React.Component {
             <Col md="6">
               <p>Copyright @ 2021 Avdhut. All rights reserved</p>
             </Col>
-            <Col md="6">
+            {/* <Col md="6">
               <p>
                 Website by:{" "}
                 <a href="https://www.linkedin.com/in/jaskaran-brar-605992b9/">
@@ -25,7 +25,7 @@ class Tdsfooter extends React.Component {
                   Jas Brar
                 </a>
               </p>
-            </Col>
+            </Col> */}
             {/* <Col>
               <ListGroup className="footer-menu">
                 <ListGroupItem tag="a" href="#">
