@@ -298,7 +298,7 @@ class App extends React.Component {
           <Container>
             <div className="title-box">
               <h2>
-                Expert <b>Team</b>
+                Our <b>Team</b>
               </h2>
             </div>
             <Row>
@@ -314,6 +314,7 @@ class App extends React.Component {
                   <h4 className="text-white">Mitalkumar Patel</h4>
                   <p className="text-white">Business Development Manager</p>
                   <p className="text-white">+61 468441977</p>
+                  <p className="text-white">meet@avdhut.com.au</p>
                   {/* <ListGroup className="social-icon-team">
                     <ListGroupItem tag="a" href="#">
                       {" "}
@@ -347,6 +348,51 @@ class App extends React.Component {
                   <h4 className="text-white">Urmil Patel</h4>
                   <p className="text-white">Operations Manager</p>
                   <p className="text-white">+61 430 486 306</p>
+                  <p className="text-white">urmil@avdhut.com.au</p>
+                </div>
+              </Col>
+              <Col xs="12" sm="6" md="6" lg="3">
+                <div className="text-center coman-box team-box">
+                  {/* <div className="team-img">
+                    <img
+                      src={require("./images/team-img3.jpg")}
+                      alt=""
+                      className="img-fluid rounded-circle"
+                    />
+                  </div> */}
+                  <h4 className="text-white">Lovepreet Sarao</h4>
+                  <p className="text-white">
+                    Telecommication Engineer and Planner
+                  </p>
+                  <p className="text-white">lovepreetsarao@avdhut.com.au</p>
+                </div>
+              </Col>
+              <Col xs="12" sm="6" md="6" lg="3">
+                <div className="text-center coman-box team-box">
+                  {/* <div className="team-img">
+                    <img
+                      src={require("./images/team-img3.jpg")}
+                      alt=""
+                      className="img-fluid rounded-circle"
+                    />
+                  </div> */}
+                  <h4 className="text-white">Mehul </h4>
+                  <p className="text-white"> Site Controller</p>
+                  <p className="text-white">mehul@avdhut.com.au</p>
+                </div>
+              </Col>
+              <Col xs="12" sm="6" md="6" lg="3">
+                <div className="text-center coman-box team-box">
+                  {/* <div className="team-img">
+                    <img
+                      src={require("./images/team-img3.jpg")}
+                      alt=""
+                      className="img-fluid rounded-circle"
+                    />
+                  </div> */}
+                  <h4 className="text-white">Nirav</h4>
+                  <p className="text-white">Site Controller</p>
+                  <p className="text-white">nirav@avdhut.com.au</p>
                 </div>
               </Col>
             </Row>
@@ -562,6 +608,17 @@ class App extends React.Component {
                   <Media body>
                     <Media heading>Phone</Media>
                     <a href="tel:+61 468 441 977"> +61 468 441 977</a> <br />
+                  </Media>
+                </Media>
+              </Col>
+              <Col xs="12" md="6" lg="4">
+                <Media className="address-box">
+                  <Media left href="#">
+                    <Icofont icon="icofont-home" />
+                  </Media>
+                  <Media body>
+                    <Media heading> Office Address</Media>
+                    <a>2 Jade Street, Hope Valley 5090</a>
                   </Media>
                 </Media>
               </Col>
